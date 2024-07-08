@@ -22,7 +22,7 @@ def main():
             np = user_input_blob.noun_phrases                                    
             response = ""
             if user_input_blob.polarity <= -0.5:
-                response = "Oh dear, that sounds bad. "
+                response = "hello hello. "
             elif user_input_blob.polarity <= 0:
                 response = "Hmm, that's not great. "
             elif user_input_blob.polarity <= 0.5:
